@@ -1,9 +1,7 @@
 #!/bin/sh
 set -eu
 # requires: qmk setup and installed
-
-# idobo = ID75
-KEYBOARD=idobo
+KEYBOARD=idobao/id75/v1
 KEYMAP=default
 
 exec qmk compile -kb "$KEYBOARD" -km "$KEYMAP"
